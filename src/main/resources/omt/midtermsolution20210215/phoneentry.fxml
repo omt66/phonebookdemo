@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="347.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="omt.midtermsolution20210215.PhoneentryController">
+   <children>
+      <Label layoutX="27.0" layoutY="25.0" text="Enter Phone Book Record Information">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="20.0" layoutY="62.0" prefHeight="2.0" prefWidth="474.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="27.0" layoutY="87.0" text="First Name:" />
+      <TextField fx:id="txtFirstName" layoutX="119.0" layoutY="83.0" prefHeight="25.0" prefWidth="208.0" />
+      <Label layoutX="27.0" layoutY="126.0" text="Last Name:" />
+      <TextField fx:id="txtLastName" layoutX="119.0" layoutY="122.0" prefHeight="25.0" prefWidth="208.0" />
+      <Label layoutX="27.0" layoutY="163.0" text="Home Phone" />
+      <TextField fx:id="txtPhoneHome" layoutX="119.0" layoutY="159.0" prefHeight="25.0" prefWidth="208.0" />
+      <Label layoutX="27.0" layoutY="199.0" text="Work Phone:" />
+      <TextField fx:id="txtPhoneWork" layoutX="119.0" layoutY="195.0" prefHeight="25.0" prefWidth="208.0" />
+      <Label layoutX="27.0" layoutY="239.0" text="Mobile Phone:" />
+      <TextField fx:id="txtPhoneMobile" layoutX="119.0" layoutY="235.0" prefHeight="25.0" prefWidth="208.0" />
+      <Button layoutX="119.0" layoutY="288.0" mnemonicParsing="false" onAction="#handleOK" prefHeight="25.0" prefWidth="90.0" text="OK" />
+      <Button layoutX="237.0" layoutY="288.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="25.0" prefWidth="90.0" text="Cancel" />
+   </children>
+</AnchorPane>
